@@ -130,7 +130,7 @@
             <objects>
                 <viewController id="pLF-q4-7gW" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cIT-kQ-AVW">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s3w-If-gny">
@@ -145,18 +145,73 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="CPBL_logo.svg" translatesAutoresizingMaskIntoConstraints="NO" id="J1l-gp-mzF">
-                                <rect key="frame" x="12" y="97" width="350" height="158"/>
+                                <rect key="frame" x="12" y="97" width="350" height="152"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3iF-PG-Lam">
+                                <rect key="frame" x="33" y="538" width="309" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <state key="normal" title="一軍照片牆( Aspect Fill )"/>
+                                <connections>
+                                    <segue destination="6vj-2Q-Kk7" kind="show" id="Neq-xY-sDk"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="n3x-3x-R6J"/>
                         <color key="backgroundColor" red="0.07528351992" green="0.13377752900000001" blue="0.2707753181" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
+                    <navigationItem key="navigationItem" id="arg-5Z-mEj"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yqv-ws-Mju" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-4220" y="-967"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="lx3-nL-whW">
+            <objects>
+                <viewController id="6vj-2Q-Kk7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IKo-QT-ZiO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" fixedFrame="YES" image="chinatrust_brothers" translatesAutoresizingMaskIntoConstraints="NO" id="229-pt-F9m">
+                                <rect key="frame" x="0.0" y="0.0" width="187" height="333"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" fixedFrame="YES" image="guardians" translatesAutoresizingMaskIntoConstraints="NO" id="xg5-uM-1tx">
+                                <rect key="frame" x="188" y="334" width="187" height="333"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" fixedFrame="YES" image="Uni-President_7-Eleven_Lions" translatesAutoresizingMaskIntoConstraints="NO" id="iuB-MF-hYY">
+                                <rect key="frame" x="188" y="0.0" width="187" height="333"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" fixedFrame="YES" image="teamlogorakuten0226" translatesAutoresizingMaskIntoConstraints="NO" id="lFk-pE-BRx">
+                                <rect key="frame" x="0.0" y="334" width="187" height="333"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C4G-7r-OBD">
+                                <rect key="frame" x="172" y="301" width="34" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <state key="normal" title="⦿">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="pLF-q4-7gW" kind="show" id="jwf-zF-BNr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7x5-1G-0RO"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ZAr-bx-8JO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Iby-x9-nTw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3738" y="-252"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Ni8-Jv-IrJ">
@@ -320,7 +375,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Kqp-bv-HqS"/>
+        <segue reference="N8u-Dj-x2Z"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="CPBL31" width="225" height="225"/>
