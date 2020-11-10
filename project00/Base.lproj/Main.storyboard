@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pLF-q4-7gW">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="S96-YY-C9q">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -14,7 +14,7 @@
             <objects>
                 <viewController id="vTJ-UF-ZeT" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qnu-u6-bKN">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1TJ-Ex-JRv">
@@ -73,12 +73,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jPi-hj-BX9">
-                                <rect key="frame" x="75" y="20" width="225" height="225"/>
+                                <rect key="frame" x="75" y="44" width="225" height="225"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="CPBL31"/>
-                                <connections>
-                                    <segue destination="pLF-q4-7gW" kind="show" id="dOe-2y-dnX"/>
-                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lcL-II-6cl"/>
@@ -88,14 +85,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z3S-Hx-WXv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3260" y="-967"/>
+            <point key="canvasLocation" x="-2320.8000000000002" y="-967.4662668665668"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="project00" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="chinatrust_brothers" translatesAutoresizingMaskIntoConstraints="NO" id="FzA-bC-mhb">
@@ -109,17 +106,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rb3-Eg-unz">
-                                <rect key="frame" x="86.217651497731822" y="526.99999999999977" width="200.00000000000011" height="50.000000000000227"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <state key="normal" title="↩︎  回上一頁">
-                                    <color key="titleColor" systemColor="labelColor"/>
-                                </state>
-                                <connections>
-                                    <segue destination="vTJ-UF-ZeT" kind="show" id="AHg-Ak-Gvi"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
@@ -135,7 +121,7 @@
             <objects>
                 <viewController id="pLF-q4-7gW" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cIT-kQ-AVW">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s3w-If-gny">
@@ -150,7 +136,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="CPBL_logo.svg" translatesAutoresizingMaskIntoConstraints="NO" id="J1l-gp-mzF">
-                                <rect key="frame" x="12" y="97" width="350" height="152"/>
+                                <rect key="frame" x="12" y="97" width="350" height="157"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3iF-PG-Lam">
@@ -173,27 +159,16 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yqv-ws-Mju" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4220" y="-967.4662668665668"/>
+            <point key="canvasLocation" x="-3280.8000000000002" y="-967.4662668665668"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="lx3-nL-whW">
             <objects>
                 <viewController id="6vj-2Q-Kk7" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IKo-QT-ZiO">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C4G-7r-OBD">
-                                <rect key="frame" x="172" y="301" width="34" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
-                                <state key="normal" title="⦿">
-                                    <color key="titleColor" systemColor="labelColor"/>
-                                </state>
-                                <connections>
-                                    <segue destination="pLF-q4-7gW" kind="show" id="jwf-zF-BNr"/>
-                                </connections>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" fixedFrame="YES" image="chinatrust_brothers" translatesAutoresizingMaskIntoConstraints="NO" id="229-pt-F9m">
                                 <rect key="frame" x="0.0" y="0.0" width="187" height="333"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -225,20 +200,9 @@
             <objects>
                 <viewController id="AE5-A9-3Sh" customClass="ViewController" customModule="project00" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Evs-hM-iZV">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U1o-ad-s16">
-                                <rect key="frame" x="86.93081910846422" y="518" width="200" height="50.000000000000227"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                <state key="normal" title="↩︎  回上一頁">
-                                    <color key="titleColor" systemColor="labelColor"/>
-                                </state>
-                                <connections>
-                                    <segue destination="vTJ-UF-ZeT" kind="show" id="g0l-KS-eNe"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="統一獅" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FvH-SL-23P">
                                 <rect key="frame" x="119" y="65" width="136" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -258,27 +222,16 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NJo-1t-B4u" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2071" y="-967"/>
+            <point key="canvasLocation" x="-1132" y="-967.4662668665668"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="GBm-bs-1xj">
             <objects>
                 <viewController id="hC8-mJ-6jB" customClass="ViewController" customModule="project00" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="p4l-tu-RqP">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jRd-49-MhR">
-                                <rect key="frame" x="86.400032020239451" y="517" width="199.99999999999989" height="49.999999999999886"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <state key="normal" title="↩︎  回上一頁">
-                                    <color key="titleColor" systemColor="labelColor"/>
-                                </state>
-                                <connections>
-                                    <segue destination="vTJ-UF-ZeT" kind="show" id="f93-Eo-6ME"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="樂天桃猿" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e9a-f6-520">
                                 <rect key="frame" x="95" y="70" width="185" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -298,27 +251,16 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tnt-ce-MKT" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1270" y="-956"/>
+            <point key="canvasLocation" x="-332" y="-956.67166416791611"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="0Nw-M9-3x6">
             <objects>
                 <viewController id="4xC-lR-0ug" customClass="ViewController" customModule="project00" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="htz-oS-HK7">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U3f-JP-JTy">
-                                <rect key="frame" x="86.400032020237632" y="517" width="200.00000000000023" height="50.00000000000005"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <state key="normal" title="↩︎  回上一頁">
-                                    <color key="titleColor" systemColor="labelColor"/>
-                                </state>
-                                <connections>
-                                    <segue destination="vTJ-UF-ZeT" kind="show" id="fxB-uy-w6k"/>
-                                </connections>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="teamlogod_2019" translatesAutoresizingMaskIntoConstraints="NO" id="WY3-iA-ojQ">
                                 <rect key="frame" x="-36.444183587583211" y="142" width="444.00000000000034" height="332.00000000000023"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -345,20 +287,9 @@
             <objects>
                 <viewController id="ZmG-AZ-cnu" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aqE-vt-1vg">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6cx-N7-hha">
-                                <rect key="frame" x="86.930819108452852" y="530" width="200" height="50.000000000000057"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <state key="normal" title="↩︎  回上一頁">
-                                    <color key="titleColor" systemColor="labelColor"/>
-                                </state>
-                                <connections>
-                                    <segue destination="vTJ-UF-ZeT" kind="show" id="N8u-Dj-x2Z"/>
-                                </connections>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="guardians" translatesAutoresizingMaskIntoConstraints="NO" id="F4f-99-C5L">
                                 <rect key="frame" x="0.50135675683486625" y="122.99999999999955" width="370.00000000000023" height="381.00000000000017"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -380,11 +311,25 @@
             </objects>
             <point key="canvasLocation" x="-2071" y="-190"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="bAk-e4-gMk">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="S96-YY-C9q" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="bsc-dH-vAo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="pLF-q4-7gW" kind="relationship" relationship="rootViewController" id="Nn4-T2-Tf4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U1l-bh-zl1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4220" y="-967.4662668665668"/>
+        </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="jwf-zF-BNr"/>
-        <segue reference="AHg-Ak-Gvi"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <image name="CPBL31" width="225" height="225"/>
         <image name="CPBL_logo.svg" width="1200" height="551"/>
